@@ -1,11 +1,19 @@
 body{
 background-color: #ffcf93;
-color: #a76d28;
+color: #7a501d;
 }
 header{
     display: flex;
     justify-content:space-between;
     text-align: center;
     color: orange;
+    flex-direction: column-reverse;
+
+}
+
+,intro{
+
+
+
 
 }
