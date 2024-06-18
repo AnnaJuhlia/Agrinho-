@@ -1,13 +1,65 @@
-body{
-background-color: #ffcf93;
-color: #7a501d;
+body {
+    background-color: #ffcf93;
+    color: #7a501d;
 }
-header{
+
+header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     text-align: center;
     color: orange;
     flex-direction: column-reverse;
 
 }
 
+.intro {
+
+    font-size: 15px;
+}
+
+.ingredientes {
+
+    font-size: 15px;
+}
+
+.preparo {
+
+    font-size: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .intro {
+
+        font-size: 20px;
+    }
+
+    .ingredientes {
+
+        font-size: 20px;
+    }
+
+    .preparo {
+
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .intro {
+
+        font-size: 30px;
+    }
+
+    .ingredientes {
+
+        font-size: 30px;
+    }
+
+    .preparo {
+
+        font-size: 30px;
+    }
+}
